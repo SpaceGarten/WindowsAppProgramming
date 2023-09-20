@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="Assignment1_2104.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Assignment1_2104"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" d:DesignHeight="500" d:DesignWidth="413.462">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Home Screen" FontSize="24" Margin="0,0,0,20"/>
+            <Button x:ConnectionId='2' Content="BMI Calculator"                           Margin="0,10"/>
+            <Button x:ConnectionId='3' Content="Tip Calculator"                           Margin="0,10"/>
+        </StackPanel>
+    </Grid>
+</Page>
+

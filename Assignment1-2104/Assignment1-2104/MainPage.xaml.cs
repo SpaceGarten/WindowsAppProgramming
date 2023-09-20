@@ -26,5 +26,15 @@ namespace Assignment1_2104
         {
             this.InitializeComponent();
         }
+
+        private void NavigateToBMIPage(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(BMICalculatorPage));
+        }
+
+        private void NavigateToTipPage(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(TipCalculatorPage));
+        }
     }
 }
