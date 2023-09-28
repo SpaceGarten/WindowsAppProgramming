@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Background="#4874c4">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
@@ -16,20 +16,27 @@
 
         <!-- Left Side: Country and Capital -->
         <StackPanel Grid.Column="0" Margin="20">
-            <TextBlock Text="Country and Capital" FontSize="18" />
+            <TextBlock Text="Country and Capital" FontSize="18" Foreground="White" />
             <ComboBox Name="CountryComboBox" SelectionChanged="ComboBox_SelectionChanged" DisplayMemberPath="CountryName" />
-            <TextBlock Text="Capital:" Margin="0,10,0,0" />
-            <TextBox Name="CountryCapitalTextBox" IsReadOnly="True" />
+            <TextBlock Text="Capital:" Margin="0,10,0,0" Foreground="White" />
+            <TextBox Name="CountryCapitalTextBox" IsReadOnly="True" Foreground="White" />
         </StackPanel>
 
         <!-- Right Side: Computer Term and Definition -->
         <StackPanel Grid.Column="1" Margin="20">
-            <TextBlock Text="Computer Term and Definition" FontSize="18" />
+            <TextBlock Text="Computer Term and Definition" FontSize="18" Foreground="White" />
             <ComboBox Name="ComputerTermComboBox" SelectionChanged="ComboBox_SelectionChanged" DisplayMemberPath="AcronymName" />
-            <TextBlock Text="Full Definition:" Margin="0,10,0,0" />
-            <TextBox Name="ComputerTermDefinitionTextBox" IsReadOnly="True" />
+            <TextBlock Text="Full Definition:" Margin="0,10,0,0" Foreground="White" />
+            <TextBox Name="ComputerTermDefinitionTextBox" IsReadOnly="True" Foreground="White" />
+        </StackPanel>
+
+        <!-- Radio Buttons for Selection -->
+        <StackPanel Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20">
+            <RadioButton Content="Countries" Name="CountryRadioButton" Checked="RadioButton_Checked" Margin="10"/>
+            <RadioButton Content="Computer Terms" Name="ComputerTermRadioButton" Checked="RadioButton_Checked" Margin="10"/>
         </StackPanel>
     </Grid>
+
 
 
 

@@ -17,6 +17,8 @@ using Windows.UI.Xaml.Navigation;
 using System;
 using System.Collections.Generic;
 using Windows.UI.Xaml.Controls;
+using System.Diagnostics;
+
 namespace Assignment2_2104
 {
     public sealed partial class MainPage : Page
@@ -43,24 +45,55 @@ namespace Assignment2_2104
         {
             this.InitializeComponent();
 
-            // Populate the ComboBoxes
+            // Populate the ComboBoxes initially with countries
             CountryComboBox.ItemsSource = countries;
-            ComputerTermComboBox.ItemsSource = computerTerms;
+            ComputerTermComboBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            ComputerTermDefinitionTextBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (CountryComboBox.SelectedItem != null)
+            if (CountryComboBox.SelectedItem != null && CountryRadioButton.IsChecked == true)
             {
                 Country selectedCountry = (Country)CountryComboBox.SelectedItem;
                 CountryCapitalTextBox.Text = selectedCountry.Capital;
             }
 
-            if (ComputerTermComboBox.SelectedItem != null)
+            if (ComputerTermComboBox.SelectedItem != null && ComputerTermRadioButton.IsChecked == true)
             {
                 ComputerTerm selectedTerm = (ComputerTerm)ComputerTermComboBox.SelectedItem;
                 ComputerTermDefinitionTextBox.Text = selectedTerm.FullDefinition;
             }
         }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            Debug.WriteLine("RadioButton_Checked event fired.");
+
+            if (CountryRadioButton.IsChecked == true)
+            {
+                // Switch to displaying countries
+                CountryComboBox.Visibility = Visibility.Visible;
+                CountryCapitalTextBox.Visibility = Visibility.Visible;
+
+                // Hide computer terms
+                ComputerTermComboBox.Visibility = Visibility.Collapsed;
+                ComputerTermDefinitionTextBox.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                // Switch to displaying computer terms
+                CountryComboBox.Visibility = Visibility.Collapsed;
+                CountryCapitalTextBox.Visibility = Visibility.Collapsed;
+
+                // Show computer terms
+                ComputerTermComboBox.Visibility = Visibility.Visible;
+                ComputerTermDefinitionTextBox.Visibility = Visibility.Visible;
+
+                // Populate the Computer Term ComboBox with data
+                ComputerTermComboBox.ItemsSource = computerTerms;
+            }
+        }
+
     }
 }
