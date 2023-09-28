@@ -9,6 +9,28 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
+        <!-- Left Side: Country and Capital -->
+        <StackPanel Grid.Column="0" Margin="20">
+            <TextBlock Text="Country and Capital" FontSize="18" />
+            <ComboBox Name="CountryComboBox" SelectionChanged="ComboBox_SelectionChanged" DisplayMemberPath="CountryName" />
+            <TextBlock Text="Capital:" Margin="0,10,0,0" />
+            <TextBox Name="CountryCapitalTextBox" IsReadOnly="True" />
+        </StackPanel>
+
+        <!-- Right Side: Computer Term and Definition -->
+        <StackPanel Grid.Column="1" Margin="20">
+            <TextBlock Text="Computer Term and Definition" FontSize="18" />
+            <ComboBox Name="ComputerTermComboBox" SelectionChanged="ComboBox_SelectionChanged" DisplayMemberPath="AcronymName" />
+            <TextBlock Text="Full Definition:" Margin="0,10,0,0" />
+            <TextBox Name="ComputerTermDefinitionTextBox" IsReadOnly="True" />
+        </StackPanel>
     </Grid>
+
+
+
 </Page>

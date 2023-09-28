@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User5487\\source\\repos\\WindowsAppProgramming\\Assignment2-2104\\Assignment2-2104\\Assignment2-2104.csproj": {}
+    "C:\\Users\\User5487\\Source\\Repos\\WindowsAppProgramming\\Assignment2-2104\\Assignment2-2104\\Assignment2-2104.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User5487\\source\\repos\\WindowsAppProgramming\\Assignment2-2104\\Assignment2-2104\\Assignment2-2104.csproj": {
+    "C:\\Users\\User5487\\Source\\Repos\\WindowsAppProgramming\\Assignment2-2104\\Assignment2-2104\\Assignment2-2104.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User5487\\source\\repos\\WindowsAppProgramming\\Assignment2-2104\\Assignment2-2104\\Assignment2-2104.csproj",
+        "projectUniqueName": "C:\\Users\\User5487\\Source\\Repos\\WindowsAppProgramming\\Assignment2-2104\\Assignment2-2104\\Assignment2-2104.csproj",
         "projectName": "Assignment2-2104",
-        "projectPath": "C:\\Users\\User5487\\source\\repos\\WindowsAppProgramming\\Assignment2-2104\\Assignment2-2104\\Assignment2-2104.csproj",
+        "projectPath": "C:\\Users\\User5487\\Source\\Repos\\WindowsAppProgramming\\Assignment2-2104\\Assignment2-2104\\Assignment2-2104.csproj",
         "packagesPath": "C:\\Users\\User5487\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User5487\\source\\repos\\WindowsAppProgramming\\Assignment2-2104\\Assignment2-2104\\obj\\",
+        "outputPath": "C:\\Users\\User5487\\Source\\Repos\\WindowsAppProgramming\\Assignment2-2104\\Assignment2-2104\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
