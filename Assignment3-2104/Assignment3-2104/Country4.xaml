@@ -11,11 +11,15 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Click="BackButton_Click"/>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Image x:Name="CountryImage" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top">
-                The capital of Country 4 is [Capital Name].
-                [Additional description goes here.]
+            <Image x:Name="CountryImage" HorizontalAlignment="Center" VerticalAlignment="Center" Width="770" Source="Assets/country4.jpg"/>
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center">
+            Reykjavik, the capital of Iceland, is the world's northernmost capital city.
+            <LineBreak/>
+            Reykjavik's vibrant street art scene adds a splash of color to its streets, a captivating destination for art enthusiasts.
+            <LineBreak/>
+            The city is known for its geothermal pools where you can soak in warm waters amidst stunning natural landscapes.
             </TextBlock>
         </StackPanel>
     </Grid>
+
 </Page>

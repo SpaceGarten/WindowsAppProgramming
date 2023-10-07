@@ -11,11 +11,15 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Click="BackButton_Click"/>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Image x:Name="CountryImage" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top">
-                The capital of Country 2 is [Capital Name].
-                [Additional description goes here.]
+            <Image x:Name="CountryImage" HorizontalAlignment="Center" VerticalAlignment="Center" Width="760" Source="Assets/country2.jpg"/>
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center">
+            Rabat, Morocco's coastal capital, boasts a historic medina filled with labyrinthine alleys.
+            <LineBreak/>
+            The Chellah ruins in Rabat, where Roman structures and medieval tombs are now surrounded by lush gardens.
+            <LineBreak/>
+            Rabat's coastal charm extends to its inviting beaches in the sun and savor fresh seafood by the Atlantic Ocean.
             </TextBlock>
         </StackPanel>
     </Grid>
+
 </Page>

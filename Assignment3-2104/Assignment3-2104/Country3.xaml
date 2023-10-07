@@ -11,11 +11,15 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Click="BackButton_Click"/>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Image x:Name="CountryImage" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top">
-                The capital of Country 3 is [Capital Name].
-                [Additional description goes here.]
+            <Image x:Name="CountryImage" HorizontalAlignment="Center" VerticalAlignment="Center" Width="780" Source="Assets/country3.jpg"/>
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center">
+            Ashgabat, the capital of Turkmenistan. It's renowned for its extravagant use of white marble in its architecture.
+            <LineBreak/>
+            Ashgabat's extravagant buildings showcase the city's opulent style, earning it a place in the Guinness World Records.
+            <LineBreak/>
+            The city's meticulously manicured parks and gardens add to the city's lavish and green charm.
             </TextBlock>
         </StackPanel>
     </Grid>
+
 </Page>

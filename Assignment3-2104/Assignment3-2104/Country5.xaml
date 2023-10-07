@@ -11,11 +11,15 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Click="BackButton_Click"/>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Image x:Name="CountryImage" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top">
-                The capital of Country 5 is [Capital Name].
-                [Additional description goes here.]
+            <Image x:Name="CountryImage" HorizontalAlignment="Center" VerticalAlignment="Center" Width="860" Source="Assets/country5.jpg"/>
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center">
+            Monaco, the second-smallest country in the world, is also one of the wealthiest.
+            <LineBreak/>
+            Monaco's old town, known as "The Rock," offers stunning panoramic views of the Mediterranean and is home to the majestic Prince's Palace.
+            <LineBreak/>
+            The country's compact size and mild Mediterranean climate make it a perfect destination for relaxing on its beautiful beaches.
             </TextBlock>
         </StackPanel>
     </Grid>
+
 </Page>
