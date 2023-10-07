@@ -11,10 +11,13 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Click="BackButton_Click"/>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Image x:Name="CountryImage" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Image x:Name="CountryImage" HorizontalAlignment="Center" VerticalAlignment="Center" Width="640" Source="Assets/country1.jpg"/>
             <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top">
-            The capital of Country 1 is [Capital Name].
-            [Additional description goes here.]
+            The capital of Portugal is Lisbon.     <LineBreak/>
+            Lisbon is one of the oldest cities in Western Europe. <LineBreak/>
+            The 25 de Abril Bridge in Lisbon was built by the same company that constructed the Golden Gate Bridge.
+            <LineBreak/>
+            The Oceanário de Lisboa is one of the world's largest indoor aquarium.
             </TextBlock>
         </StackPanel>
     </Grid>

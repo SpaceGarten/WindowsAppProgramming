@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-07T17:37:49.311</Modified>
+      <Modified>2023-10-07T18:18:33.688</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\bin\x86\Debug\Assignment3-2104.exe">
       <PackagePath>entrypoint\Assignment3-2104.exe</PackagePath>
-      <Modified>2023-10-07T17:37:47.333</Modified>
+      <Modified>2023-10-07T18:18:32.685</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -45,6 +45,26 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T22:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\Assets\country1.jpg">
+      <PackagePath>Assets\country1.jpg</PackagePath>
+      <Modified>2023-10-07T17:43:16.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\Assets\country2.jpg">
+      <PackagePath>Assets\country2.jpg</PackagePath>
+      <Modified>2023-10-07T17:52:37.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\Assets\country3.jpg">
+      <PackagePath>Assets\country3.jpg</PackagePath>
+      <Modified>2023-10-07T18:02:44.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\Assets\country4.jpg">
+      <PackagePath>Assets\country4.jpg</PackagePath>
+      <Modified>2023-10-07T18:09:25.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\Assets\country5.jpg">
+      <PackagePath>Assets\country5.jpg</PackagePath>
+      <Modified>2023-10-07T18:12:26.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -86,35 +106,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\bin\x86\Debug\Assignment3-2104.xr.xml">
       <PackagePath>Assignment3-2104.xr.xml</PackagePath>
-      <Modified>2023-10-07T17:37:47.187</Modified>
+      <Modified>2023-10-07T18:18:32.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-10-07T17:37:47.230</Modified>
+      <Modified>2023-10-07T18:18:32.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\bin\x86\Debug\Country1.xbf">
       <PackagePath>Country1.xbf</PackagePath>
-      <Modified>2023-10-07T17:37:47.231</Modified>
+      <Modified>2023-10-07T18:18:32.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\bin\x86\Debug\Country2.xbf">
       <PackagePath>Country2.xbf</PackagePath>
-      <Modified>2023-10-07T17:37:47.231</Modified>
+      <Modified>2023-10-07T18:18:32.571</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\bin\x86\Debug\Country3.xbf">
       <PackagePath>Country3.xbf</PackagePath>
-      <Modified>2023-10-07T17:37:47.231</Modified>
+      <Modified>2023-10-07T18:18:32.571</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\bin\x86\Debug\Country4.xbf">
       <PackagePath>Country4.xbf</PackagePath>
-      <Modified>2023-10-07T17:37:47.232</Modified>
+      <Modified>2023-10-07T18:18:32.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\bin\x86\Debug\Country5.xbf">
       <PackagePath>Country5.xbf</PackagePath>
-      <Modified>2023-10-07T17:37:47.232</Modified>
+      <Modified>2023-10-07T18:18:32.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-10-07T17:37:47.232</Modified>
+      <Modified>2023-10-07T18:18:32.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -122,11 +142,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-07T17:37:47.984</Modified>
+      <Modified>2023-10-07T18:18:33.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment3-2104\Assignment3-2104\bin\x86\Debug\Core\Assignment3-2104.exe">
       <PackagePath>Assignment3-2104.exe</PackagePath>
-      <Modified>2023-10-07T17:37:49.299</Modified>
+      <Modified>2023-10-07T18:18:33.675</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

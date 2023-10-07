@@ -24,16 +24,19 @@
       <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
-      <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Source" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Inlines" />
+      <RootProperty Name="TextAlignment" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
     <RootType FullName="Assignment3_2104.Country1" />
     <RootType FullName="Assignment3_2104.Country2" />
     <RootType FullName="Assignment3_2104.Country3" />

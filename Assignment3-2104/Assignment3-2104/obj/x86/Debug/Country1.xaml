@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="Assignment3_2104.Country1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Assignment3_2104"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='2' Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20"                         />
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Image x:ConnectionId='3' x:Name="CountryImage" HorizontalAlignment="Center" VerticalAlignment="Center" Width="640" Source="Assets/country1.jpg"/>
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top">
+            The capital of Portugal is Lisbon.     <LineBreak/>
+            Lisbon is one of the oldest cities in Western Europe. <LineBreak/>
+            The 25 de Abril Bridge in Lisbon was built by the same company that constructed the Golden Gate Bridge.
+            <LineBreak/>
+            The Oceanário de Lisboa is one of the world's largest indoor aquarium.
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
+
