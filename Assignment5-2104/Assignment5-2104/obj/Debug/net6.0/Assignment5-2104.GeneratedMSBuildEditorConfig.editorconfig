@@ -16,16 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\User5487\source\repos\WindowsAppProgramming\Assignment5-2104\Assignment5-2104
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/User5487/source/repos/WindowsAppProgramming/Assignment5-2104/Assignment5-2104/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User5487/source/repos/WindowsAppProgramming/Assignment5-2104/Assignment5-2104/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User5487/source/repos/WindowsAppProgramming/Assignment5-2104/Assignment5-2104/Pages/Implications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW1wbGljYXRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User5487/source/repos/WindowsAppProgramming/Assignment5-2104/Assignment5-2104/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User5487/source/repos/WindowsAppProgramming/Assignment5-2104/Assignment5-2104/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+[C:/Users/User5487/source/repos/WindowsAppProgramming/Assignment5-2104/Assignment5-2104/Pages/Oppositions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3Bwb3NpdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User5487/source/repos/WindowsAppProgramming/Assignment5-2104/Assignment5-2104/Pages/Shared/_ValidationScriptsPartial.cshtml]
