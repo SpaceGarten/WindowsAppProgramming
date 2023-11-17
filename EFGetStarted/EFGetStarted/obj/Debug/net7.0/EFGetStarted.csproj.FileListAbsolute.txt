@@ -1,0 +1,5 @@
+C:\Users\User5487\source\repos\WindowsAppProgramming\EFGetStarted\EFGetStarted\obj\Debug\net7.0\EFGetStarted.csproj.AssemblyReference.cache
+C:\Users\User5487\source\repos\WindowsAppProgramming\EFGetStarted\EFGetStarted\obj\Debug\net7.0\EFGetStarted.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User5487\source\repos\WindowsAppProgramming\EFGetStarted\EFGetStarted\obj\Debug\net7.0\EFGetStarted.AssemblyInfoInputs.cache
+C:\Users\User5487\source\repos\WindowsAppProgramming\EFGetStarted\EFGetStarted\obj\Debug\net7.0\EFGetStarted.AssemblyInfo.cs
+C:\Users\User5487\source\repos\WindowsAppProgramming\EFGetStarted\EFGetStarted\obj\Debug\net7.0\EFGetStarted.csproj.CoreCompileInputs.cache
