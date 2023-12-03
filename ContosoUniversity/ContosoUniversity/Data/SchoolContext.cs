@@ -1,5 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿#define First // LAST First
+#if First
+// <snippet_first>
 using ContosoUniversity.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ContosoUniversity.Data
 {
@@ -22,3 +25,6 @@ namespace ContosoUniversity.Data
         }
     }
 }
+// </snippet_first>
+#elif LAST
+#endif
