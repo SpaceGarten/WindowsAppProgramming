@@ -57,7 +57,7 @@ namespace Weather_App_Final_Project
                 txtCity.Text = $"{data.name}, {data.sys.country}";
                 txtLastUpdate.Text = $"Last updated : {DateTime.Now.ToString("dd MMMM yyyy HH:mm")}";
 
-                BitmapImage image = new BitmapImage(new Uri($"http://openweathermap.org/img/w/(data.weather[0].icon).png", UriKind.Absolute));
+                BitmapImage image = new BitmapImage(new Uri($"http://openweathermap.org/img/w/{data.weather[0].icon}.png", UriKind.Absolute));
                 imgWeather.Source = image;
 
                 txtDescription.Text = $"{data.weather[0].description}";
@@ -66,6 +66,8 @@ namespace Weather_App_Final_Project
 
                 txtCel.Text=$"{data.main.temp} °C";
             }
+
+            progressRing.IsActive = false;
         }
     }
 }
