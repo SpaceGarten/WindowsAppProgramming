@@ -14,7 +14,7 @@ namespace Weather_App_Final_Project.Common
         public static string APIRequest(string lat, string lon)
         {
             StringBuilder sb = new StringBuilder(API_LINK);
-            sb.AppendFormat("?lat={0}&lon={1}&appid={2}", lat, lon, API_KEY);
+            sb.AppendFormat("?lat={0}&lon={1}&appid={2}&units=metric", lat, lon, API_KEY);
             return sb.ToString();
         }
 

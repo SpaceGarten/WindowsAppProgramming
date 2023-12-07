@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -47,10 +48,7 @@ namespace Weather_App_Final_Project
         private async void btnGetWeather_Click(object sender, RoutedEventArgs e)
         {
             progressRing.IsActive = true;
-         
-
-          
-
+      
             var data = await Helper.Helper.GetWeather(Lat, Lng);
             if(data != null)
             {
@@ -64,9 +62,9 @@ namespace Weather_App_Final_Project
                 txtHumidity.Text = $"Humidity : {data.main.humidity} %";
                 txtTime.Text = $"{Common.Common.ConvertUnixToDateTime(data.sys.sunrise).ToString("HH:mm")} / {Common.Common.ConvertUnixToDateTime(data.sys.sunset).ToString("HH:mm")}";
 
+                Debug.WriteLine($"Temperature: {data.main.temp}");
                 txtCel.Text=$"{data.main.temp} °C";
             }
-
             progressRing.IsActive = false;
         }
     }

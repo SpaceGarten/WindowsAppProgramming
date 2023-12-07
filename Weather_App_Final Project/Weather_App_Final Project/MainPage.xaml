@@ -71,12 +71,14 @@
                        HorizontalAlignment="Center"/>
         </StackPanel>
         <TextBlock x:Name="txtCel"
-                       Text=""
-                       FontWeight="SemiBold"
-                       FontSize="14"
-                       Foreground="White"
-                       TextAlignment="Center"
-                       HorizontalAlignment="Center"/>
+                   Grid.Row="3"
+                   Text="{Binding Temp}"
+                   FontWeight="SemiBold"
+                   FontSize="30"
+                   Foreground="White"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"/>
     </Grid>
 
     <Page.BottomAppBar>
